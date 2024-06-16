@@ -232,8 +232,8 @@ body .column-description {
 }
 
 .home .home-img img {
-    width: 500px; 
-    max-width: 40vw; 
+    width: 450px; 
+    max-width: 35vw; 
     margin: 5rem; 
     border-radius: 50%; 
     position: relative;
@@ -1003,7 +1003,7 @@ footer #phone {
 
     .home .home-img img {
         width: 400px; 
-        max-width: min(40vmax, 60vmin); 
+        max-width: min(35vmax, 55vmin); 
     }
 
     .about .about-content {
