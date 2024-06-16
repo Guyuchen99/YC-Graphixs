@@ -201,7 +201,7 @@ body .column-description {
 /* Home Section  */
 .home {
     width: 100vw; 
-    min-height: calc(100vh - var(--navbar-height)); 
+    min-height: calc(100svh - var(--navbar-height)); 
     margin-top: var(--navbar-height); 
     padding: 0 var(--side-padding);
     line-height: 1.3;
@@ -232,7 +232,7 @@ body .column-description {
 }
 
 .home .home-img img {
-    width: 450px; 
+    width: 500px; 
     max-width: 35vw; 
     margin: 5rem; 
     border-radius: 50%; 
@@ -363,7 +363,7 @@ body .column-description {
 }
 
 .projects .projects-content .project-card .project-card-container {
-    height: clamp(450px, 45vh, 500px); 
+    height: clamp(450px, 45svh, 500px); 
     display: flex;
     flex-direction: column; 
     justify-content: space-between;
@@ -595,7 +595,7 @@ body .column-description {
 
 .shop .shop-content .shop-item {
     width: min(300px, 18vw); 
-    height: max(350px, 50vh); 
+    height: max(350px, 50svh); 
     padding-bottom: 0.5rem; 
     margin-right: 2.2rem; 
     border-radius: 1rem; 
@@ -758,7 +758,7 @@ body .column-description {
 
 /* Contact Section */
 .contact {
-    min-height: calc(100vh - var(--navbar-height) - var(--footer-height)); 
+    min-height: calc(100svh - var(--navbar-height) - var(--footer-height)); 
 }
 
 .contact .contact-content {
@@ -1158,7 +1158,7 @@ footer #phone {
     }
 
     .home {
-        padding: 0 var(--side-padding) 10vh;
+        padding: 0 var(--side-padding) 10svh;
     }
 
     .home .home-content h1 {
