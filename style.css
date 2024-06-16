@@ -95,14 +95,12 @@ body .btn {
     cursor: pointer;
 }
 
-body .btn-main-bg-color:hover,
-body .btn-main-bg-color:focus {
+body .btn-main-bg-color:hover {
     color: var(--purple-color2); 
     background: var(--main-bg-color);
 }
 
-body .btn-second-bg-color:hover,
-body .btn-second-bg-color:focus {
+body .btn-second-bg-color:hover {
     color: var(--purple-color2); 
     background: var(--second-bg-color);
 }
@@ -176,14 +174,12 @@ body .column-description {
     color: var(--text-color); 
 }
 
-.header .navbar-menu .navbar-item:hover, 
-.header .navbar-menu .navbar-item:focus {
+.header .navbar-menu .navbar-item:hover {
     color: var(--purple-color2); 
     text-shadow: 0 0 2.5rem white;
 }
 
-.header.sticky .navbar-menu .navbar-item:hover,
-.header.sticky .navbar-menu .navbar-item:focus {
+.header.sticky .navbar-menu .navbar-item:hover {
     color: var(--purple-color1); 
 }
 
@@ -272,8 +268,7 @@ body .column-description {
     z-index: 99;
 }
 
-.home .home-content .home-btn:hover, 
-.home .home-content .home-btn:focus {
+.home .home-content .home-btn:hover {
     background-color: var(--purple-color1); 
     border: 0.5rem solid var(--purple-color1);
 }
@@ -363,8 +358,7 @@ body .column-description {
     transition: all 0.3s ease;
 }
 
-.projects .projects-content .project-card:hover, 
-.projects .projects-content .project-card:focus {
+.projects .projects-content .project-card:hover {
     background: var(--purple-color4); 
 }
 
@@ -378,8 +372,7 @@ body .column-description {
     transition: all 0.3s ease;
 }
 
-.projects .projects-content .project-card:hover .project-card-container,
-.projects .projects-content .project-card:focus .project-card-container {
+.projects .projects-content .project-card:hover .project-card-container {
     transform: scale(1.05);
 }
 
@@ -390,8 +383,7 @@ body .column-description {
     transition: color 0.3s ease;
 }
 
-.projects .projects-content .project-card:hover .project-logo, 
-.projects .projects-content .project-card:focus .project-logo {
+.projects .projects-content .project-card:hover .project-logo {
     color: var(--purple-color3);
 }
 
@@ -454,8 +446,7 @@ body .column-description {
     overflow: hidden;
 }
 
-.skills .skills-content .skills-display-box:hover, 
-.skills .skills-content .skills-display-box:focus {
+.skills .skills-content .skills-display-box:hover {
     animation: Shake 0.1s linear;
 }
 
@@ -629,8 +620,7 @@ body .column-description {
     }
 }
 
-.shop .shop-content .shop-item:hover img, 
-.shop .shop-content .shop-item:focus img {
+.shop .shop-content .shop-item:hover img {
     transform: scale(1.05);
 }
 
@@ -728,8 +718,7 @@ body .column-description {
     color: black; 
 }
 
-.shop .shop-content .shop-item:hover .buy-icon, 
-.shop .shop-content .shop-item:focus .buy-icon {
+.shop .shop-content .shop-item:hover .buy-icon {
     right: 4%; 
 }
 
@@ -754,8 +743,7 @@ body .column-description {
     cursor: pointer;
 }
 
-.shop .shop-content .shop-btn-container .shop-btn:hover, 
-.shop .shop-content .shop-btn-container .shop-btn:focus {
+.shop .shop-content .shop-btn-container .shop-btn:hover {
     color: var(--purple-color2); 
     background: var(--main-bg-color);
 }
@@ -888,8 +876,7 @@ footer #laptop a{
     color: var(--purple-color4); 
 }
 
-footer #laptop a:hover, 
-footer #laptop a:focus {
+footer #laptop a:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -1154,8 +1141,7 @@ footer #phone {
         color: var(--purple-color4); 
     }
 
-    footer #phone a:hover,
-    footer #phone a:focus {
+    footer #phone a:hover {
         text-decoration: underline;
         cursor: pointer;
     }

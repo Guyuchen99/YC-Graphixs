@@ -83,10 +83,6 @@ $(document).ready(function () {
   shopItems.addEventListener("mouseover", stopScroll);
   shopItems.addEventListener("mouseout", resumeScroll);
 
-  shopItems.addEventListener("touchstart", stopScroll);
-  shopItems.addEventListener("touchend", resumeScroll);
-  shopItems.addEventListener("touchcancel", resumeScroll);
-
   shopBtn[0].onclick = function () {
     speed = -2;
   };
