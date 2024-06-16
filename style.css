@@ -937,6 +937,10 @@ footer #phone {
         font-size: clamp(8.5px, 0.95vmax, 12.5px); 
     }
 
+    section {
+        min-height: max(80vmax, calc(100vh - var(--navbar-height))); 
+    }
+
     body .column-left {
         width: 75%;
         display: flex;
