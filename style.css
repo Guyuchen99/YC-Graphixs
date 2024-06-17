@@ -46,7 +46,7 @@ section {
 }
 
 section .section-title {
-    width: 350px; 
+    width: 70vw; 
     position: relative;
     text-align: center;
     font-size: 4.5rem;
@@ -457,7 +457,6 @@ body .column-description {
     75% {
       transform: rotate(-2deg);
     }
-
 }
 
 .skills .skills-content .skills-display-box .progress-container {
@@ -868,14 +867,12 @@ body .column-description {
 
 /* Footer Section */
 footer{
-    max-height: var(--footer-height); 
     background: white;
     padding: 13.5px 20px;
     color: black;
     text-align: center;
     font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif;
-    overflow: hidden; 
 }
 footer #laptop a{
     color: var(--purple-color4); 
@@ -895,6 +892,48 @@ footer #phone {
 
 
 /* Responsive Media Query */
+@media (min-width:1600px) {
+    html {
+        font-size: 70%; 
+    }
+}
+
+@media (min-width:1800px) {
+    :root {
+        --footer-height: 100px;
+        --navbar-height: 165px;  
+    }
+
+    html {
+        font-size: 80%; 
+    }
+
+    .header .logo {
+        width: 155px; 
+    }
+}
+
+@media (min-width:2000px) {
+    html {
+        font-size: 90%; 
+    }
+}
+
+@media (min-width:2200px) {
+    :root {
+        --footer-height: 150px;
+        --navbar-height: 200px;  
+    }
+
+    html {
+        font-size: 100%; 
+    }
+
+    .header .logo {
+        width: 190px; 
+    }
+}
+
 @media (max-width:1350px) {
     .header .navbar-menu .navbar-item span {
         display: none;
@@ -1135,7 +1174,6 @@ footer #phone {
         margin-top: 1rem; 
         align-self: center;
     }
-
 }
 
  @media (max-width: 600px) {
@@ -1149,7 +1187,6 @@ footer #phone {
     }
 
     footer {
-        max-height: var(--footer-height);  
         line-height: 175%;
     }
 
