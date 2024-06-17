@@ -376,7 +376,6 @@ body .column-description {
     transform: scale(1.05);
 }
 
-
 .projects .projects-content .project-card .project-logo {
     font-size: 6rem; 
     color: var(--purple-color4);
@@ -388,7 +387,7 @@ body .column-description {
 }
 
 .projects .projects-content .project-card .project-title {
-    font-size: 2.2rem;
+    font-size: 1.85rem;
     font-weight: 500;
     margin: 0.5rem 0; 
 }
@@ -931,6 +930,16 @@ footer #phone {
     
     .about .about-content .column-description {
         font-size: 1.45rem;
+    }
+}
+
+@media (max-height:700px) {
+    :root {
+        --navbar-height: 100px; 
+    }
+
+    .header .logo {
+        width: 90px; 
     }
 }
 
