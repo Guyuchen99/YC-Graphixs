@@ -1,2 +1,2 @@
 # YC Graphixs
-![Photo of My Personal Website](images/YC Graphixs.png)
+![Photo of the UBC Grade Calculator](images/YCGraphixs.png)
