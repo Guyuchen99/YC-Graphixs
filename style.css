@@ -1029,7 +1029,8 @@ footer #phone {
 
     .header .navbar-menu {
         width: 100vw; 
-        height: 100dvh; 
+        height: 100vh; 
+        padding: 5rem 2rem; 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
