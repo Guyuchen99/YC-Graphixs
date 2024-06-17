@@ -636,7 +636,7 @@ body .column-description {
     font-weight: 500;
     font-style: italic;
     padding: 0.5rem; 
-    padding-right: 0.70rem; 
+    padding-right: 0.7rem; 
     border-radius: 0.25rem;
     color: var(--text-color); 
     z-index: 5; 
@@ -1022,15 +1022,10 @@ footer #phone {
         min-height: max(80vmax, calc(100vh - var(--navbar-height))); 
     }
 
-    .header .navbar-icon {
-        display: block;
-        z-index: 999; 
-    }
-
     .header .navbar-menu {
         width: 100vw; 
         height: 100vh; 
-        padding: 5rem 2rem 6rem; 
+        padding: 10rem 2rem 20rem; 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -1041,7 +1036,7 @@ footer #phone {
         background-color: black;
         transition: all 0.3s ease; 
         transition-delay: 0.3s; 
-        z-index: 99; 
+        z-index: 150; 
     }
 
     .header .navbar-menu.active {
@@ -1051,6 +1046,12 @@ footer #phone {
 
     .header .navbar-menu.active .navbar-item {
         margin: 0; 
+    }
+
+    .header .navbar-icon {
+        display: inline-block;
+        position: relative;
+        z-index: 999; 
     }
 
     .header .navbar-menu .navbar-item span {
@@ -1171,7 +1172,7 @@ footer #phone {
         width: 100%; 
         height: 30rem;
         padding-right: 0; 
-        padding-bottom: 3rem; 
+        margin-bottom: 3rem; 
         justify-content: space-evenly;
     }
 
@@ -1202,7 +1203,7 @@ footer #phone {
  @media (max-width: 600px) {
     :root {
         --side-padding: 5%; 
-        --footer-height: 75px; 
+        --footer-height: 80px; 
     }
 
     html {
@@ -1211,10 +1212,6 @@ footer #phone {
 
     .projects .projects-content .project-card .project-card-container {
         height: clamp(275px, 35vmax, 300px); 
-    }
-
-    .shop .shop-content .shop-item {
-        width: min(275px, 60vw); 
     }
     
     footer {
