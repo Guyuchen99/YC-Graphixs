@@ -31,22 +31,22 @@ $(document).ready(function () {
   ScrollReveal().reveal(".home-content h1", { origin: "left" });
 
   // Typed JS
-  // var typed = new Typed(".typing1", {
-  //   strings: ["Software Developer", "Web Developer", "Youtuber", "Pianist", "Badminton Player"],
-  //   startDelay: 1500,
-  //   typeSpeed: 100,
-  //   backSpeed: 75,
-  //   backDelay: 1500,
-  //   loop: true,
-  // });
+  var typed = new Typed(".typing1", {
+    strings: ["Software Developer", "Web Developer", "Youtuber", "Pianist", "Badminton Player"],
+    startDelay: 1500,
+    typeSpeed: 100,
+    backSpeed: 75,
+    backDelay: 1500,
+    loop: true,
+  });
 
-  // var typed = new Typed(".typing2", {
-  //   strings: ["Software Developer", "Web Developer", "Youtuber", "Pianist", "Badminton Player"],
-  //   typeSpeed: 100,
-  //   backSpeed: 75,
-  //   backDelay: 1500,
-  //   loop: true,
-  // });
+  var typed = new Typed(".typing2", {
+    strings: ["Software Developer", "Web Developer", "Youtuber", "Pianist", "Badminton Player"],
+    typeSpeed: 100,
+    backSpeed: 75,
+    backDelay: 1500,
+    loop: true,
+  });
 
   // Shop Item Display
   let shopItems = document.querySelector(".shop .shop-items");

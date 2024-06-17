@@ -883,11 +883,11 @@ footer{
     font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif;
 }
-footer #laptop a{
+footer #laptop span {
     color: var(--purple-color4); 
 }
 
-footer #laptop a:hover {
+footer #laptop span:hover {
     text-decoration: underline;
     cursor: pointer;
 }
@@ -1015,7 +1015,6 @@ footer #phone {
     }
 
     html {
-        /* font-size: clamp(8.5px, 0.95vmax, 12.5px);  */
         font-size: 62.5%;
     }
 
@@ -1030,7 +1029,7 @@ footer #phone {
 
     .header .navbar-menu {
         width: 100vw; 
-        height: 100svh; 
+        height: 100dvh; 
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -1221,11 +1220,11 @@ footer #phone {
         display: inline;
     }
 
-    footer #phone a {
+    footer #phone span {
         color: var(--purple-color4); 
     }
 
-    footer #phone a:hover {
+    footer #phone span:hover {
         cursor: pointer;
     }
     footer #laptop {
