@@ -876,6 +876,7 @@ footer{
     text-align: center;
     font-size: 1.5rem;
     font-family: "Ubuntu", sans-serif;
+    overflow: hidden; 
 }
 footer #laptop a{
     color: var(--purple-color4); 
