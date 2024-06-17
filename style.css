@@ -869,7 +869,7 @@ body .column-description {
 
 /* Footer Section */
 footer{
-    height: 50px; 
+    max-height: var(--footer-height); 
     background: white;
     padding: 13.5px 20px;
     color: black;
@@ -1139,6 +1139,7 @@ footer #phone {
     }
 
     footer {
+        max-height: var(--footer-height);  
         line-height: 175%;
     }
 
