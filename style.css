@@ -135,10 +135,6 @@ body .column-description {
     text-align: justify;
 }
 
-body .phone {
-    display: none;
-}
-
 
 
 
@@ -539,7 +535,7 @@ body .phone {
 }
 
 .skills .skills-column2 .node-container .progress-bar span {
-    width: 25%; 
+    width: 90%; 
 }
 
 .skills .skills-column2 .c-container .progress-bar span {
@@ -551,7 +547,7 @@ body .phone {
 }
 
 .skills .skills-column2 .sql-container .progress-bar span {
-    width: 70%; 
+    width: 85%; 
 }
 
 .skills .skills-column2 .r-container .progress-bar span {
@@ -888,17 +884,18 @@ footer{
     font-family: "Ubuntu", sans-serif;
 }
 
-footer .laptop span {
+footer #laptop span {
     color: var(--purple-color4); 
 }
 
-footer .laptop span:hover {
+footer #laptop span:hover {
     text-decoration: underline;
     cursor: pointer;
 }
 
-
-
+footer #phone {
+    display: none;
+}
 
 
 
@@ -1228,19 +1225,19 @@ footer .laptop span:hover {
         line-height: 175%;
     }
 
-    footer .phone {
+    footer #phone {
         display: inline;
     }
 
-    footer .phone span {
+    footer #phone span {
         color: var(--purple-color4); 
     }
 
-    footer .phone span:hover {
+    footer #phone span:hover {
         cursor: pointer;
     }
 
-    footer .laptop {
+    footer #laptop {
         display: none;
     }
 } 
